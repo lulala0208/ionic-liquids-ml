@@ -1,7 +1,5 @@
 # Ionic Liquids Property Prediction Machine Learning Models
 
-# Ionic Liquids Property Prediction Machine Learning Models
-
 ## Overview
 
 This project develops machine learning models for predicting ionic liquids (ILs) properties using molecular descriptors and ElasticNet regression. The models are implemented in Jupyter notebooks with comprehensive analysis, visualization, and documentation. The project employs advanced feature selection, Bayesian optimization, and polynomial feature engineering to achieve high prediction accuracy.
@@ -39,23 +37,102 @@ ionic-liquids-ml/
 ## Requirements
 
 ### Python Version
-- Python >= 3.8
+- Python >= 3.6
 
 ### Core Dependencies
 ```
-numpy>=1.21.0
-pandas>=1.3.0
-scikit-learn>=1.0.0
-rdkit-pypi>=2022.3.1
-optuna>=3.0.0
-matplotlib>=3.5.0
-seaborn>=0.11.0
-joblib>=1.1.0
-shap>=0.41.0
-tqdm>=4.64.0
-openpyxl>=3.0.9
-jupyter>=1.0.0
-ipykernel>=6.0.0
+alembic==1.7.7
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+async-generator==1.10
+attrs==22.2.0
+autopage==0.6.0
+backcall==0.2.0
+bleach==4.1.0
+certifi==2021.5.30
+cffi==1.15.1
+cliff==3.10.1
+cmaes==0.9.0
+cmd2==2.4.3
+colorama==0.4.5
+colorlog==6.10.1
+comm==0.1.4
+cycler==0.11.0
+dataclasses==0.8
+decorator==5.1.1
+defusedxml==0.7.1
+entrypoints==0.4
+et-xmlfile==1.1.0
+greenlet==2.0.2
+importlib-metadata==4.8.3
+importlib-resources==5.4.0
+ipykernel==5.5.6
+ipython==7.16.3
+ipython-genutils==0.2.0
+ipywidgets==7.8.5
+jedi==0.17.2
+Jinja2==3.0.3
+joblib==1.1.1
+jsonschema==3.2.0
+jupyter-client==7.1.2
+jupyter-core==4.9.2
+jupyterlab-pygments==0.1.2
+jupyterlab_widgets==1.1.11
+kiwisolver==1.3.1
+Mako==1.1.6
+MarkupSafe==2.0.1
+matplotlib==3.3.4
+mistune==0.8.4
+nbclient==0.5.9
+nbconvert==6.0.7
+nbformat==5.1.3
+nest-asyncio==1.6.0
+notebook==6.4.3
+numpy==1.19.5
+openpyxl==3.1.3
+optuna==3.0.6
+packaging==21.3
+pandas==1.1.5
+pandocfilters==1.5.1
+parso==0.7.1
+pbr==7.0.3
+pickleshare==0.7.5
+Pillow==8.4.0
+prettytable==2.5.0
+prometheus-client==0.17.1
+prompt-toolkit==3.0.36
+pycparser==2.21
+Pygments==2.14.0
+pyparsing==3.1.4
+pyperclip==1.11.0
+pyreadline3==3.5.0
+pyrsistent==0.18.0
+python-dateutil==2.9.0.post0
+pytz==2026.2
+pywin32==305
+pywinpty==1.1.6
+PyYAML==6.0.1
+pyzmq==25.1.2
+rdkit-pypi==2021.9.4
+scikit-learn==0.24.2
+scipy==1.5.4
+seaborn==0.11.2
+Send2Trash==1.8.3
+six==1.17.0
+SQLAlchemy==1.4.54
+stevedore==3.5.2
+terminado==0.12.1
+testpath==0.6.0
+threadpoolctl==3.1.0
+tornado==6.1
+tqdm==4.64.1
+traitlets==4.3.3
+typing_extensions==4.1.1
+wcwidth==0.2.14
+webencodings==0.5.1
+widgetsnbextension==3.6.10
+wincertstore==0.2
+zipp==3.6.0
 ```
 
 ## Quick Start
