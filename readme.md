@@ -19,8 +19,8 @@ This project develops machine learning models for predicting ionic liquids (ILs)
 ```
 ionic-liquids-ml/
 ├── notebooks/
-│   ├── ionic_liquids_full.ipynb         # Full-featured model with advanced analysis
-│   ├── ionic_liquids_simplified.ipynb   # Simplified model for quick testing
+│   ├── QSAR_IPC81.ipynb         
+│   ├── QSPR_Li .ipynb   
 │   └── README.md                         # Notebook descriptions
 ├── data/
 │   ├── Li_data.xlsx                     # Lithium ionic liquids dataset
